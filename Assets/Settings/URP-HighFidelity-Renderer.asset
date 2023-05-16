@@ -40,8 +40,8 @@ MonoBehaviour:
       type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: 6071668386574282146}
-  m_RendererFeatureMap: adc0de57c6d2eee5a2adba7f3ae64254
+  - {fileID: 2267661630146470948}
+  m_RendererFeatureMap: adc0de57c6d2eee524e4a9ef3c5a781f
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -82,7 +82,7 @@ MonoBehaviour:
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 0
---- !u!114 &6071668386574282146
+--- !u!114 &2267661630146470948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Active: 1
   settings:
     Event: 500
-    blitMaterial: {fileID: 2100000, guid: d2d416f182f92e545ae713b25d568d66, type: 2}
+    blitMaterial: {fileID: 2100000, guid: 439f7c283d1bbcd49ae2d04edbb433fb, type: 2}
     blitMaterialPassIndex: 0
     setInverseViewMatrix: 0
     requireDepthNormals: 0

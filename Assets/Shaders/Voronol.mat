@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1211376147899839648
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -21,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Voronol
-  m_Shader: {fileID: -6465566751694194690, guid: 7c6cf818a6f65ce4b9d36eef5bc88156,
+  m_Shader: {fileID: -6465566751694194690, guid: 62d0f60cbfd56d945a04a052eba52ddd,
     type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
@@ -60,18 +47,31 @@ Material:
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 10
-    - _FullScreenIntensity: 0.41
+    - _FullScreenIntensity: 0.16
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 5
     - _Surface: 1
-    - _VignetteIntensity: 0
-    - _VignetteRadiusPower: 9.26
+    - _VignetteIntensity: 1
+    - _VignetteRadiusPower: 7.5
     - _VoronolScale: 5
-    - _VoronolSpeed: 2
+    - _VoronolSpeed: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 0, g: 0.15586233, b: 1, a: 0}
+    - _Color: {r: 0, g: 0.26675177, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &3702839140664949469
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
